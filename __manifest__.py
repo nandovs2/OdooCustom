@@ -6,7 +6,10 @@
     'summary': 'Custom module',
     'description': "This is custom module",
     'depends': [],
-    'data': [],
+    'data': [
+        'views/menu.xml'
+        'views/patient_view.xml'
+    ],
     'installable': True,
 
 }
