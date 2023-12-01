@@ -2,7 +2,6 @@
 <odoo>
     <data>
 
-
     <record id="action_hospital_patient" model="ir.actions.act_window">
         <field name="name">Patients</field>
         <field name="type">ir.actions.act_window</field>
@@ -15,6 +14,12 @@
             </p>
         </field>
     </record>
+
+        <menuitem id="menu_patient"
+              name="Patient"
+              action="action_hospital_patient"
+              parent="menu_patient_master"
+              sequence="0"/>
 
     </data>
 </odoo>
